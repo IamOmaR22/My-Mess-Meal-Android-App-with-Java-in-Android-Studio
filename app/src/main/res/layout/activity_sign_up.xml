@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:weightSum="6"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:text="@string/sign_up"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/color1"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.2"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:weightSum="10"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/signUpEmailEditText"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/round3"
+            android:drawableStart="@drawable/ic_mail"
+            android:foregroundTint="@color/colorWhitGray"
+            android:textColor="@color/color1"
+            android:paddingStart="15dp"
+            android:paddingEnd="18dp"
+            android:drawablePadding="15dp"
+            android:textSize="18sp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/color3"
+            android:fontFamily="@font/poppins_regular"
+            tools:ignore="UnusedAttribute" />
+
+        <EditText
+            android:id="@+id/signUpPassword1EditText"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/round3"
+            android:drawableLeft="@drawable/ic_password"
+            android:textColor="@color/color1"
+            android:paddingLeft="15dp"
+            android:paddingRight="18dp"
+            android:drawablePadding="15dp"
+            android:textSize="18sp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/color3"
+            android:fontFamily="@font/poppins_regular"
+            tools:ignore="RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/signUpPassword2EditText"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/round3"
+            android:drawableLeft="@drawable/ic_password"
+            android:textColor="@color/color1"
+            android:paddingLeft="15dp"
+            android:paddingRight="18dp"
+            android:drawablePadding="15dp"
+            android:textSize="18sp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/color3"
+            android:fontFamily="@font/poppins_regular"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_button"
+            android:text="@string/sign_up"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

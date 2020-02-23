@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".DebitEditActivity">
+
+    <TextView
+        android:id="@+id/userDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You can change your meal in any time"
+        android:textSize="22sp"
+        android:textColor="@color/color1"
+        android:fontFamily="@font/poppins_light"
+        android:padding="30dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/debitMoneyEditText"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/round3"
+        android:drawableLeft="@drawable/ic_money"
+        android:textColor="@color/color1"
+        android:paddingLeft="15dp"
+        android:paddingRight="18dp"
+        android:drawablePadding="15dp"
+        android:textSize="18sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter balance"
+        android:inputType="number"
+        android:textColorHint="@color/color3"
+        android:fontFamily="@font/poppins_regular"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/debitMoneyButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/round_button"
+        android:text="Submit balance"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

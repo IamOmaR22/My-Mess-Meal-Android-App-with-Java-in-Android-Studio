@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/messIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/round3"
+        android:drawableLeft="@drawable/ic_user"
+        android:foregroundTint="@color/colorWhitGray"
+        android:textColor="@color/color1"
+        android:paddingLeft="15dp"
+        android:paddingRight="18dp"
+        android:drawablePadding="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="18sp"
+        android:hint="@string/user_name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/color3"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <Button
+        android:id="@+id/enterNameButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:text="Enter"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

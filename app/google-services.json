@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "651508467487",
+    "firebase_url": "https://my-mess-meal-d2443.firebaseio.com",
+    "project_id": "my-mess-meal-d2443",
+    "storage_bucket": "my-mess-meal-d2443.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651508467487:android:94d6215192adada8ce122a",
+        "android_client_info": {
+          "package_name": "com.omarfaruk.mymessmeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651508467487-oog4ud0urdoq1rfs8hsh1thniqc8bs1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL-H8pa0loAzVfe3HWaPe4r6NbtssSdXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651508467487-oog4ud0urdoq1rfs8hsh1thniqc8bs1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

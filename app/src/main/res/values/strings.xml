@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Mess Meal</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="pass_not_match">Password did not match</string>
+    <string name="enter_valid_email">Enter valid email</string>
+    <string name="sign_up_successfully">Sign Up successfully</string>
+    <string name="email_already_exist">Email already exist</string>
+    <string name="email_not_register">Email not register</string>
+    <string name="user_name">User name</string>
+    <string name="debit">Debit</string>
+</resources>
