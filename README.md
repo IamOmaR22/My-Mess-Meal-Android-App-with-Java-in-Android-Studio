@@ -1,6 +1,6 @@
 # My Mess Meal is an android app.
 ```
-Some Features
+Some Features of this project.
 ```
 ## Screen Shots of my app
 
